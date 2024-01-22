@@ -4,7 +4,7 @@ import { Navbar } from './_components/navbar';
 
 const DashboardLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <section>
+    <section >
       <Navbar />
       {children}
     </section>
